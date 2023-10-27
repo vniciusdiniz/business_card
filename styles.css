@@ -1,0 +1,39 @@
+body{
+    margin: 20px auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 20px;
+
+    width: 400px;
+    color: #e9c680;
+
+    background:        
+        linear-gradient(to bottom, transparent 0%, #000e 50%), 
+        linear-gradient(to right, #f00c 50%, #00fc 100%);
+
+    border-bottom: 3px solid rgba(90, 27, 90, 0.863);
+}
+
+
+.profile_pic {
+    width: 150px;
+    -webkit-clip-path: polygon(20px 0%, calc(100% - 20px) 0%, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0% calc(100% - 20px), 0% 20px);
+    clip-path: polygon(20px 0%, calc(100% - 20px) 0%, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0% calc(100% - 20px), 0% 20px);
+}
+
+.profile_info {
+    font-family: 'American Typewriter' , 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+h2 {
+        color: #a77209;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      
+}
